@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/vidhyasagar70/Gradient-Generator.git",
+  "homepage": "https://github.com/vidhyasagar70/Gradient-Generator.git",
   "name": "gradient-genrator",
   "private": true,
   "version": "1.0.0",
@@ -39,9 +39,8 @@
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix",
-    "predepoly":"npm run build",
-     "deploy":"gh-pages -d build"
-
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "lint-staged": {
     "*.js": [
